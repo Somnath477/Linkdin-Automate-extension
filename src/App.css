@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.connect-button-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+.connect-with-all {
+  padding: 10px 20px;
+  background-color: #0073b1; 
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.connect-with-all:hover {
+  background-color: #005c8f; /* Darker blue when hovered */
+}
+
+.connect-with-all:focus {
+  outline: none;
+}
